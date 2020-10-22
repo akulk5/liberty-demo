@@ -1,0 +1,21 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=-3857
+END=2765
+title=Header and Footer Mobile Tests Header tests Header is present and has Navigation bar
+[CHAPTER]
+TIMEBASE=1/1000
+START=8569
+END=9431
+title=Header and Footer Mobile Tests Footer tests Footer has Socials
+[CHAPTER]
+TIMEBASE=1/1000
+START=9741
+END=10301
+title=Header and Footer Mobile Tests Footer tests Footer has Navigation bar
+[CHAPTER]
+TIMEBASE=1/1000
+START=10391
+END=10862
+title=Header and Footer Mobile Tests Footer tests Footer has Copyright
