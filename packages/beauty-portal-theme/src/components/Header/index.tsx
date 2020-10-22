@@ -24,7 +24,7 @@ const Header: FunctionComponent = () => {
         <div className="bp-header_content">
           <div className="bp-logo">
             <Link className="bp-logo-link" to="/">
-              Beauty <span>Portal</span>
+              My Beautiful <span>Portal</span>
             </Link>
           </div>
           <SiteNavigation />
