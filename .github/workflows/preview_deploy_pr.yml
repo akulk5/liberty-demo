@@ -140,7 +140,7 @@ jobs:
              with:
                msg: "Strcuture Data Test Results deployed on ${{secrets.REPO_DEPLOY_URL }}/stt-pr-${{ github.event.number }}.txt"
     cypress:
-      runs-on: ubuntu-16.04
+      runs-on: ubuntu-latest
       name: Run e2e Cypress Tests
       needs: [deploy_preview]
       steps:
