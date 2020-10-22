@@ -10,9 +10,7 @@ jobs:
           - uses: actions/checkout@master
           - run: mkdir -p output/
           - name: Use Node.js 12.x
-            uses: actions/setup-node@v1
-            with:
-              node-version: 12.x
+            uses: actions/setup-node@v2.1.2
           - name: Run Structured Data Test
             run: |
                  npm i structured-data-testing-tool -g
