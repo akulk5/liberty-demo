@@ -1,0 +1,130 @@
+Tests
+
+  Metatags 
+    •  x-ua-compatible
+        └─ ie=edge
+    •  viewport
+        └─ width=device-width, initial-scale=1, shrink-to-fit=no
+    •  generator
+        └─ Gatsby 2.24.2
+    •  description
+        └─ Beauty Portal was created from a sample site on Platform Liberty [Please rewire me out of Blog Settings]
+    •  og:description
+        └─ Beauty Portal was created from a sample site on Platform Liberty [Please rewire me out of Blog Settings]
+    •  twitter:card
+        └─ summary
+    •  twitter:creator
+        └─ platform.liberty
+    •  twitter:title
+        └─ Home Page
+    •  twitter:description
+        └─ Beauty Portal was created from a sample site on Platform Liberty [Please rewire me out of Blog Settings]
+    •  og:type
+        └─ page
+    •  og:url
+        └─ https://liberty-portal.netlify.app///
+    •  og:title
+        └─ All Things Beautiful
+    •  og:site_name
+        └─ All Things Beautiful
+    •  twitter:site
+        └─ All Things Beautiful
+    •  og:locale
+        └─ EN-GB
+    •  theme-color
+        └─ #b8f0c0
+
+  Schema.org > WebSite - 100% (1 passed, 0 failed)
+    ✓  schema in jsonld
+        └─ [Object]
+    •  @context
+        └─ http://schema.org
+    •  @type
+        └─ WebSite
+    •  mainEntityOfPage.@type
+        └─ WebPage
+    •  mainEntityOfPage.@id
+        └─ https://liberty-portal.netlify.app/
+    •  inLanguage
+        └─ EN-GB
+    •  publisher.@type
+        └─ Organization
+    •  publisher.name
+        └─ All Things Beautiful
+    •  publisher.url
+        └─ https://www.allthingsbeautiful.com/
+    •  publisher.sameAs[0]
+        └─ https://www.youtube.com/user/allthingshairPH
+    •  publisher.sameAs[1]
+        └─ https://twitter.com/AllThingsHairuk
+    •  publisher.sameAs[2]
+        └─ https://www.pinterest.com/AllThingsHair/
+    •  publisher.sameAs[3]
+        └─ https://www.facebook.com/AllThingsHairPH/
+    •  publisher.sameAs[4]
+        └─ https://www.instagram.com/allthingshairuk/
+    •  publisher.logo.@type
+        └─ ImageObject
+    •  publisher.logo.url
+        └─ https://liberty-portal.netlify.app/unilever-logo.png
+    •  name
+        └─ All Things Beautiful
+
+  Schema.org > WebPage - 100% (1 passed, 0 failed)
+    ✓  schema in jsonld
+        └─ [Object]
+    •  @context
+        └─ http://schema.org
+    •  @type
+        └─ WebPage
+    •  mainEntityOfPage.@type
+        └─ WebPage
+    •  mainEntityOfPage.@id
+        └─ https://liberty-portal.netlify.app///
+    •  inLanguage
+        └─ EN-GB
+    •  publisher.@type
+        └─ Organization
+    •  publisher.name
+        └─ All Things Beautiful
+    •  publisher.url
+        └─ https://www.allthingsbeautiful.com/
+    •  publisher.sameAs[0]
+        └─ https://www.youtube.com/user/allthingshairPH
+    •  publisher.sameAs[1]
+        └─ https://twitter.com/AllThingsHairuk
+    •  publisher.sameAs[2]
+        └─ https://www.pinterest.com/AllThingsHair/
+    •  publisher.sameAs[3]
+        └─ https://www.facebook.com/AllThingsHairPH/
+    •  publisher.sameAs[4]
+        └─ https://www.instagram.com/allthingshairuk/
+    •  publisher.logo.@type
+        └─ ImageObject
+    •  publisher.logo.url
+        └─ https://liberty-portal.netlify.app/unilever-logo.png
+    •  name
+        └─ Home Page
+    •  description
+        └─ Home Page
+
+Statistics
+
+  Number of Metatags: 17
+  Schemas in JSON-LD: 2
+     Schemas in HTML: 0
+      Schema in RDFa: 0
+  Schema.org schemas: WebSite, WebPage
+       Other schemas: 0
+     Test groups run: 3
+  Optional tests run: 49
+ Pass/Fail tests run: 2
+
+Results
+
+    Passed: 2 	(100%)
+  Warnings: 0 	(0%)
+    Failed: 0 	(0%)
+
+  ✓ 2 tests passed with 0 warnings.
+
