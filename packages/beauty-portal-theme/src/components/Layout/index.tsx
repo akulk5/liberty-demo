@@ -1,7 +1,5 @@
 import React, { ReactNode } from 'react';
 import classNames from 'classnames';
-import Header from '../Header';
-import Footer from '../Footer';
 import PageSchema from '../PageSchema';
 import './styles.scss';
 
@@ -11,7 +9,6 @@ const Layout = ({ className, children }: LayoutProps) => {
       <a href="#main" className="bp-skipLink">
         <span>Skip to content</span>
       </a>
-      <Header />
       <PageSchema type={'WebSite'} />
       <main
         id="main"
@@ -20,7 +17,6 @@ const Layout = ({ className, children }: LayoutProps) => {
       >
         {children}
       </main>
-      <Footer />
     </>
   );
 };
